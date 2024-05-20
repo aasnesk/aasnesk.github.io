@@ -1,0 +1,371 @@
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .scroll {
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid blue;
+            width: 99%;
+            height: 400%;
+            white-space: nowrap;
+        }
+
+        .vertical-label {
+            transform: rotate(180deg);
+            writing-mode: vertical-lr;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .horizontal-label {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 50px repeat(6, 250px);
+            grid-template-rows: 20px repeat(6, 250px);
+            align-items: center;
+            grid-auto-flow: row;
+        }
+
+        .grid-item {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .grid-item>img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+
+        <div class="grid-container">
+
+            <!-- Top row -->
+            <div class="grid-item">
+                <div class="horizontal-label"> </div>
+            </div>
+            <div class="grid-item">
+                <div class="horizontal-label"> -3 mm</div>
+            </div>
+            <div class="grid-item">
+                <div class="horizontal-label"> -2 mm</div>
+            </div>
+            <div class="grid-item">
+                <div class="horizontal-label"> -1 mm</div>
+            </div>
+            <div class="grid-item">
+                <div class="horizontal-label"> +1 mm</div>
+            </div>
+            <div class="grid-item">
+                <div class="horizontal-label"> +2 mm</div>
+            </div>
+            <div class="grid-item">
+                <div class="horizontal-label"> +3 mm</div>
+            </div>
+
+
+            <!-- Row 1 -->
+            <div class="grid-item">
+                <div class="vertical-label"> Nikkel <br> Oksid</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Nikkel_oksid-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Nikkel_oksid-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Nikkel_oksid-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Nikkel_oksid+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Nikkel_oksid+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Nikkel_oksid+3.jpg">
+            </div>
+
+            <!-- Row 2 -->
+            <div class="grid-item">
+                <div class="vertical-label"> Kobbolt <br> Oksid</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Kobbolt_oksid-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Kobbolt_oksid-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Kobbolt_oksid-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Kobbolt_oksid+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Kobbolt_oksid+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Kobbolt_oksid+3.jpg">
+            </div>
+
+
+            <!-- Row 3 -->
+            <div class="grid-item">
+                <div class="vertical-label"> Underglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Underglasur-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Underglasur-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Underglasur-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Underglasur+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Underglasur+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Underglasur+3.jpg">
+            </div>
+
+            <!-- Row 4 -->
+            <div class="grid-item">
+                <div class="vertical-label"> Natt blå <br> Dyppglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Blå_bøtte_glasur-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Blå_bøtte_glasur-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Blå_bøtte_glasur-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Blå_bøtte_glasur+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Blå_bøtte_glasur+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Blå_bøtte_glasur+3.jpg">
+            </div>
+
+
+            <!-- Row 5 -->
+            <div class="grid-item">
+                <div class="vertical-label">Botz pro lys blå med spetter <br> Penselglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Transparent_turquise-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Transparent_turquise-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Transparent_turquise-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Transparent_turquise+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Transparent_turquise+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Transparent_turquise+3.jpg">
+            </div>
+
+            <!-- Row 6 -->
+            <div class="grid-item">
+                <div class="vertical-label">Smokey blue <br> Penselglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Smokey_blue-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Smokey_blue-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Smokey_blue-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Smokey_blue+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Smokey_blue+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Smokey_blue+3.jpg">
+            </div>
+
+
+            <!-- Row 7 -->
+            <div class="grid-item">
+                <div class="vertical-label">Matcha 1 <br> Penselglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Macha_v1-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v1-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v1-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v1+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v1+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v1+3.jpg">
+            </div>
+
+            <!-- Row 8 -->
+            <div class="grid-item">
+                <div class="vertical-label">Matcha 2 <br> Penselglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Macha_v2-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v2-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v2-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v2+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v2+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Macha_v2+3.jpg">
+            </div>
+
+            <!-- Row 9 -->
+            <div class="grid-item">
+                <div class="vertical-label">Hibiskus <br> Penselglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Hibiskus-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Hibiskus-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Hibiskus-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Hibiskus+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Hibiskus+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Hibiskus+3.jpg">
+            </div>
+
+            <!-- Row 10 -->
+            <div class="grid-item">
+                <div class="vertical-label">Ancient jasper<br> Penselglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Ancient_jasper-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Ancient_jasper-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Ancient_jasper-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Ancient_jasper+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Ancient_jasper+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Ancient_jasper+3.jpg">
+            </div>
+
+            <!-- Row 11 -->
+            <div class="grid-item">
+                <div class="vertical-label">Kina rød<br> Dyppglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Red_china-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Red_china-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Red_china-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Red_china+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Red_china+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Red_china+3.jpg">
+            </div>
+
+            <!-- Row 12 -->
+            <div class="grid-item">
+                <div class="vertical-label">Grønn krystall<br> Dyppglasur</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="img/Grønn_krystal-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Grønn_krystal-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Grønn_krystal-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Grønn_krystal+1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Grønn_krystal+2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="img/Grønn_krystal+3.jpg">
+            </div>
+
+        </div>
+
+</body>
